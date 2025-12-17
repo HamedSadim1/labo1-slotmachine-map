@@ -1,3 +1,9 @@
+/**
+ * Slot Utilities
+ *
+ * Provides utility functions for the slot machine, such as generating image elements for slot symbols.
+ */
+
 const images = [
   "/img/slot-cherry.png",
   "/img/slot-lemon.png",

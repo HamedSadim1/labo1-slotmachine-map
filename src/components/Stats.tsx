@@ -1,3 +1,10 @@
+/**
+ * Stats Component
+ *
+ * Displays the game statistics including score, number of spins, wins, and win rate.
+ * Uses icons and gradient text for visual appeal.
+ */
+
 import React from "react";
 import { FaTrophy, FaMedal, FaPercentage, FaRedo } from "react-icons/fa";
 

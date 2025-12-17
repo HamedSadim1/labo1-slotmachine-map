@@ -1,3 +1,9 @@
+/**
+ * Type Declarations
+ *
+ * Custom type declarations for TypeScript to handle image imports and other assets.
+ */
+
 declare module "*.png" {
   const src: string;
   export default src;

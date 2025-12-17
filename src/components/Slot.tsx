@@ -1,3 +1,10 @@
+/**
+ * Slot Component
+ *
+ * Represents a single slot in the slot machine.
+ * Displays an image based on the slot number and applies spinning animation when active.
+ */
+
 import React from "react";
 import { getImgElement } from "../utils/slotUtils";
 

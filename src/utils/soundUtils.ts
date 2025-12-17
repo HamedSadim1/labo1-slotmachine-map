@@ -1,3 +1,9 @@
+/**
+ * Sound Utilities
+ *
+ * Provides functions to play sound effects for the slot machine game, such as the spinning sound.
+ */
+
 export const playSpinSound = () => {
   const audioContext = new (window.AudioContext ||
     (window as any).webkitAudioContext)();

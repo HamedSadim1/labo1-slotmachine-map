@@ -1,3 +1,10 @@
+/**
+ * Game Button Component
+ *
+ * A reusable button component for the slot machine game.
+ * Supports primary and danger variants with hover and disabled states.
+ */
+
 import React from "react";
 
 interface GameButtonProps {

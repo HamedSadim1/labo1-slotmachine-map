@@ -1,3 +1,10 @@
+/**
+ * Main Entry Point
+ *
+ * This file is the entry point for the React application.
+ * It renders the App component into the DOM using ReactDOM.
+ */
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";

@@ -1,3 +1,11 @@
+/**
+ * Custom Hook for Slot Machine State Management
+ *
+ * This hook manages the state of the slot machine game using useReducer.
+ * It handles actions like starting a spin, ending a spin, resetting the game, and toggling auto-spin.
+ * The state includes slots, score, spins, wins, and spinning status.
+ */
+
 import { useReducer } from "react";
 
 interface SlotMachineState {

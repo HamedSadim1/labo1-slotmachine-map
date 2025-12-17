@@ -1,3 +1,11 @@
+/**
+ * Slot Machine Game App
+ *
+ * This is the main component for a simple slot machine game built with React and TypeScript.
+ * It manages the game logic, including spinning the slots, handling wins, and displaying the UI.
+ * The app uses a custom hook for state management and renders components for slots, buttons, and statistics.
+ */
+
 import { useCallback, useEffect } from "react";
 import {
   FaRedo,
