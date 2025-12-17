@@ -1,46 +1,97 @@
-# Getting Started with Create React App
+# Slotmachine Game
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Een interactieve en visueel aantrekkelijke slotmachine webapplicatie gebouwd met moderne webtechnologieën. Geniet van het klassieke casino gevoel met spinning slots, score tracking, win rates en automatische spinning modi.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **Interactieve Spinning Slots**: Drie slots die synchroon draaien met een realistische animatie.
+- **Score & Statistieken**: Houd bij van je score, aantal spins, wins en win rate.
+- **Auto-Spin Modus**: Schakel automatische spinning in voor hands-free gameplay.
+- **Geluidseffecten**: Geniet van casino-achtige geluiden tijdens het spinnen.
+- **Responsief Design**: Werkt perfect op desktop en mobiele apparaten.
+- **Moderne UI**: Gebouwd met Tailwind CSS voor een strakke, professionele look.
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Live Demo Link] (voeg hier de deployment link toe indien beschikbaar)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Technologieën
 
-### `npm test`
+- **Frontend Framework**: React 19 met TypeScript
+- **Build Tool**: Vite 7
+- **Styling**: Tailwind CSS v4
+- **Icons**: React Icons
+- **Audio**: Web Audio API voor geluidsgeneratie
+- **State Management**: React useReducer voor complexe state
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installatie
 
-### `npm run build`
+1. **Clone de repository**:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   git clone https://github.com/HamedSadim1/labo1-slotmachine-map.git
+   cd labo1-slotmachine-map
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Installeer dependencies**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Start de development server**:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```bash
+   npm run dev
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Open je browser** naar `http://localhost:5174` (standaard Vite poort).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🎮 Gebruik
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- **Spin**: Klik op de "Spin" knop om de slots te laten draaien.
+- **Auto Spin**: Klik op "Auto Spin" om automatische spinning in te schakelen. Klik op "Stop" om te stoppen.
+- **Reset**: Klik op "Reset" om de score en statistieken te resetten.
+- **Statistieken**: Bekijk je score, aantal spins, wins en win rate in de onderste sectie.
 
-## Learn More
+## 🏗️ Project Structuur
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```text
+src/
+├── components/
+│   ├── Slot.tsx          # Individuele slot component
+│   ├── Stats.tsx         # Statistieken weergave
+│   ├── GameButton.tsx    # Herbruikbare knop component
+├── hooks/
+│   └── useSlotMachine.ts # Custom hook voor state management
+├── utils/
+│   ├── slotUtils.tsx     # Slot image utilities
+│   └── soundUtils.ts     # Audio utilities
+├── App.tsx               # Hoofdcomponent
+├── main.tsx              # Applicatie entry point
+└── types.d.ts            # TypeScript type declarations
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+public/
+├── img/                  # Slot images
+├── favicon.ico           # Favicon
+└── manifest.json         # PWA manifest
+```
+
+## 🎯 Game Logic
+
+- **Win Rate**: 50% kans om te winnen bij elke spin.
+- **Score**: +100 punten bij een win.
+- **Auto Spin**: Spins automatisch elke 1.5 seconden na een spin einde.
+- **Geluid**: Sawtooth golf geluidsgeneratie voor casino sfeer.
+
+## 🤝 Bijdragen
+
+Bijdragen zijn welkom! Open een issue of pull request voor verbeteringen.
+
+## 📄 Licentie
+
+Dit project is gelicentieerd onder de MIT License.
+
+## 👨‍💻 Auteur
+
+Hamed Sadim - [GitHub](https://github.com/HamedSadim1)
